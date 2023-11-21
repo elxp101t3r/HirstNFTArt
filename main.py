@@ -22,7 +22,7 @@ def paint():
         tim.dot(30, (rgbs[randint(0, len(rgbs) - 1)][0]/255.0, rgbs[randint(0, len(rgbs) - 1)][1]/255.0, rgbs[randint(0, len(rgbs) - 1)][2]/255.0))
 
 
-for c in range(0,10):
+for _ in range(0, 10):
     paint()
     y += 50
     tim.setpos(-250, y)
